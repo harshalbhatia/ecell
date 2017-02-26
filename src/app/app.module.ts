@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { EventListComponent } from './event-list/event-list.component';
+import { ReachUsComponent } from './reach-us/reach-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpeakerListComponent,
-    EventListComponent
+    EventListComponent,
+    ReachUsComponent
   ],
   imports: [
     BrowserModule,
