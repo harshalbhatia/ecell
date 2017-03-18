@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { DropdownModule } from 'ng2-bootstrap/dropdown';
 
 import { AppComponent } from './app.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
@@ -18,7 +19,8 @@ import { ReachUsComponent } from './reach-us/reach-us.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    DropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
