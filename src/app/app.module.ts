@@ -1,8 +1,10 @@
+import 'hammerjs';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { DropdownModule } from 'ng2-bootstrap/dropdown';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
@@ -20,7 +22,7 @@ import { ReachUsComponent } from './reach-us/reach-us.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    DropdownModule.forRoot()
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
