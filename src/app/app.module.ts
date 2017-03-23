@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { ReachUsComponent } from './reach-us/reach-us.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpeakerListComponent,
     EventListComponent,
-    ReachUsComponent
+    ReachUsComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
