@@ -11,6 +11,7 @@ import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { ReachUsComponent } from './reach-us/reach-us.component';
 import { IntroComponent } from './intro/intro.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IntroComponent } from './intro/intro.component';
     SpeakerListComponent,
     EventListComponent,
     ReachUsComponent,
-    IntroComponent
+    IntroComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

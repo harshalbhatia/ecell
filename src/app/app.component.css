@@ -1,17 +1,4 @@
-md-toolbar {
+app-intro {
     position: absolute;
-    z-index: 10;
-    top: 0;
-    /*bottom: 0;*/
-    left: 0;
-    right: 0;
-    /*padding: 8px 16px;*/
-}
-
-a span {
-    text-transform: uppercase;
-}
-
-.title {
-    font-weight: bold;
+    margin-top: 50px;
 }
