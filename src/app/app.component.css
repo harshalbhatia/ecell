@@ -2,3 +2,15 @@ app-intro {
     position: absolute;
     margin-top: 50px;
 }
+
+.main-image {
+    position: relative;
+    margin-top: 20px;
+    height: 700px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1490444189366-0a6f173c6318");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /*overflow: hidden;*/
+}
