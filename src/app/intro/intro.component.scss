@@ -1,14 +1,32 @@
-.main-image {
+.hero-image {
     position: relative;
     margin-top: 20px;
     height: 700px;
-    width: 100%;
-    background-image: url("../../assets/images/hero-image.jpg");
+    background-image: url("../../assets/images/hero-image-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-color: black;
+    filter: blur(5px);
     /*overflow: hidden;*/
+}
+
+.hero-text {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 300px;
+    // padding-left: auto;
+    // padding-right: auto;
+    display: block;
+    text-align: center;
+    z-index: 10;
+    font-size: 52px;
+    font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 100;
 }
 
 // .placeholder {
