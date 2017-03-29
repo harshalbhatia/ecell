@@ -2,9 +2,10 @@ import 'hammerjs';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+// import { FormsModule } from '@angular/forms';
+// import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
@@ -24,9 +25,15 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule,
-    MaterialModule
+    // FormsModule,
+    // HttpModule,
+    MaterialModule,
+    RouterModule.forRoot([
+      {
+        path: 'megasummit',
+        redirectTo: '/'
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
