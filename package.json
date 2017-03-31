@@ -4,6 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
+    "deploy": "ng build --prod && cp -r dist docs",
     "ng": "ng",
     "start": "ng serve",
     "test": "ng test",
