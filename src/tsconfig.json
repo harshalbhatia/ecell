@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": "/ecell/",
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
