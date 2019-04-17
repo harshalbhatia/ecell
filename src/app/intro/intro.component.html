@@ -1,43 +1,85 @@
 <div class="hero-image"></div>
 <div class="hero-text">
-    <p>#DARETODREAM</p>
-    <p class="event-date">30th March, 2017</p>
+  <p>#DATEWITHDESTINY</p>
+  <p class="event-date">19th March, 2019</p>
 </div>
 <div class="what">
-    <div class="what-text">
-        <h2>What is Dr. AIT Mega Summit?</h2>
-        <p>Dr.AIT Mega Summit '17 is a unique platform focusing on bringing up the culture of self dependence among the youngsters and encouraging the students through the highly inspiring speakers with their invigorating talks and mentorship. We are providing a platform for start-ups and many other entrepreneurial ventures to create a support for the student initiatives and create an ecosystem to foster entrepreneurial talent amongst the student community.</p>
-    </div>
+  <div class="what-text">
+    <h2>What is Dr. AIT Mega Summit?</h2>
+    <p>
+      Rotaract Club, in association with the Entrepreneurship Cell of Dr
+      Ambedkar Institute of Technology, present a way for future entrepreneurs
+      to get involved.
+    </p>
+    <p>
+      We work towards bringing awareness about various renowned startups and
+      share their success stories. We aim to motivate and guide the brightest
+      and most creative minds to bring about their innovate ideas, so that they
+      can become the successful entrepreneurs of tomorrow. The event is filled
+      with wonderful workshops, extravagant events and stupendous speakers to
+      celebrate the spirit of entrepreneurship.
+    </p>
+  </div>
 </div>
 <div class="ambedkar">
-    <div class="ambedkar-text">
-        <h2>Men are mortal. So are ideas. An idea needs propagation as much as a plant needs watering. Otherwise both will wither and die.</h2>
-        <h3>Dr. BR Ambedkar</h3>
-    </div>
+  <div class="ambedkar-text">
+    <h2>
+      Men are mortal. So are ideas. An idea needs propagation as much as a plant
+      needs watering. Otherwise both will wither and die.
+    </h2>
+    <h3>Dr. BR Ambedkar</h3>
+  </div>
 </div>
 <div class="why">
-    <div class="why-text">
-        <h2>Why should you attend Dr. AIT Mega Summit?</h2>
-        <p>Dr. AIT Megasummit is focused on bringing a wide range of speakers from various sectors and inspire the audience to give them valuable insights about challenges and inputs to face these challenges in a particular sector. An oppurtunity to see highly successful speakers in a single place is priceless.</p>
-    </div>
+  <div class="why-text">
+    <h2>What are the fees and how do you register?</h2>
+    <h4>
+      There is no registration fee.<br />
+      Access to the entire summit is absolutely FREE.
+    </h4>
+    <p>
+      <a
+        mat-raised-button
+        color="primary"
+        href="https://www.thecollegefever.com/events/the-mega-summit"
+        target="_blank"
+        >Registration Link</a
+      >
+    </p>
+  </div>
 </div>
 <div class="chief">
-    <h1>Chief Guests</h1>
-    <div class="card-container">
-        <md-card *ngFor="let chief of chiefs">
-        <md-card-title>{{chief.name}}</md-card-title>
-        <md-card-subtitle>{{chief.desc}}</md-card-subtitle>
-        </md-card>
-    </div>
+  <h1>Speakers</h1>
+  <div class="card-container">
+    <mat-card *ngFor="let chief of chiefs">
+      <img src="{{'/assets/images/' + chief.image}}" />
+      <mat-card-title>{{ chief.name }}</mat-card-title>
+      <mat-card-subtitle>{{ chief.desc }}</mat-card-subtitle>
+    </mat-card>
+  </div>
 </div>
 <div class="find">
-    <div class="find-text">
-        <h2>Venue</h2>
-        <h3>Dr. Ambedkar Institute of Technology</h3>
-        <h4>Near Jnana Bharathi Campus, 2nd Stage, Nagarbhavi, Bengaluru, Karnataka 560056</h4>
-        <a md-raised-button color="warn" href="https://goo.gl/maps/dA7BNs9Aais" target="_blank">DIRECTIONS</a>
-    </div>
+  <div class="find-text">
+    <h2>Venue</h2>
+    <h3>Dr. Ambedkar Institute of Technology</h3>
+    <h4>
+      Near Jnana Bharathi Campus, 2nd Stage, Nagarbhavi, Bengaluru, Karnataka
+      560056
+    </h4>
+    <p>
+      9:30 AM to 4:00 PM
+    </p>
+    <p>
+      <a
+        mat-raised-button
+        color="primary"
+        href="https://goo.gl/maps/dA7BNs9Aais"
+        target="_blank"
+        >DIRECTIONS</a
+      >
+    </p>
+  </div>
 </div>
 <div class="footer">
-    <p>&copy; E - Cell, Dr. AIT. All rights reserved. 2017. Site by Harshal Bhatia.  </p>
+  <p>&copy; 2019, E - Cell, Dr. AIT. All rights reserved</p>
 </div>

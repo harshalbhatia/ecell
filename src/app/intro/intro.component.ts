@@ -6,37 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
-
-  chiefs: Object[] =  [
+  chiefs: Object[] = [
     {
-      name: 'Shri. Puneeth Rajkumar',
-      desc: 'Actor, Kannada Film Industry'
+      name: 'Chethan Hiremath',
+      image: 'chethan.jpg',
+      desc: 'Founder/Director at Groove OK Please'
     },
     {
-      name: 'Shri. Santosh S. Lad',
-      desc: 'Hon\'ble Minister for Labour, Government of Karnataka' 
+      name: 'Safdhar Adoor',
+      image: 'safdhar.jpg',
+      desc: 'Co-Founder at Rices Obliquity'
     },
     {
-      name: 'Shri. Rizwan Arshad',
-      desc: 'MLC, Youth Congress President, Karnataka'
-    },
-    {
-      name: 'Shri. Sridhar Pabbisetty',
-      desc: 'CEO, Namma Bengaluru Foundation'
-    },
-    {
-      name: 'Shri. VC Prakash',
-      desc: 'Deputy Chairman, NRI Forum of Karnataka'
-    },
-    {
-      name: 'Shri. KV Goutham',
-      desc: 'General Secretary, KPCC'
+      name: 'Satyarup Siddhanta',
+      image: 'satyarup.jpg',
+      desc: 'Bangalore-based Indian mountaineer'
     }
   ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
